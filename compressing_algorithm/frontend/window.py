@@ -24,7 +24,7 @@ def open_file():
     file_path = filedialog.askopenfilename(
         title="Select a Text File", filetypes=[("Text files", "*.txt")])
     if file_path:
-        sourcedata = open(file_path)
+        sourcedata = open(file_path, encoding="utf8")
         charcounts = count_characters(sourcedata)
         text_widget.delete(1.0, tk.END)
         for char, count in charcounts.items():
