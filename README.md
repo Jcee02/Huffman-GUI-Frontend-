@@ -10,4 +10,3 @@ In addition, the code defines two incomplete functions called compress and decom
 
 Finally, it creates the main application window, adds a text widget to display the results, and buttons to open a file, compress and decompress the content (although these last two functionalities are not fully implemented).
 
-Translated with DeepL.com (free version)
