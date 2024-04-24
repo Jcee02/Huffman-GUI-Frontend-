@@ -2,8 +2,9 @@ import tkinter as tk
 from tkinter import filedialog
 import string
 
-#List all possible characters here
-characters = string.ascii_uppercase + string.ascii_lowercase + string.digits + string.punctuation
+characters = string.printable
+
+# la neta los saltos de linea tabs y así salen bn verguiados ajaja pero mejor usa el atributo printable en vez de mi cochinero 
 
 #Count the characters (nested for lmao)
 def count_characters(file_handle):
